@@ -1,0 +1,100 @@
+body,html{
+min-width: 800px;
+}
+
+
+.logo-box img {
+width: 10%;
+height:auto;
+position: absolute;
+bottom: 293px;
+left: 98px;
+} 
+
+.logo-box {
+  display:inline-block;
+  position: relative;
+  width: 100%;
+  height: 500px;
+
+}
+
+.text-box {
+  display: inline-block;
+  position: relative;
+  bottom: 510px;
+  left: 315px;
+  padding: 5px;
+}
+
+a:link {
+  color:  #088F8F;
+  text-decoration: none;
+}
+a:visited {
+  color:  #088F8F;
+  text-decoration: none;
+}
+a:hover {
+  color: #a766ff;
+  text-decoration: none;
+}
+a:active {
+  color: #088F8F;
+  text-decoration: none;
+}
+
+.fname-container {
+  width: 90%;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  
+} 
+
+.lname-container{
+  width: 90%;
+  padding-top: 10px;
+  margin-bottom: 20px;
+
+}
+
+ .password-box {
+  width: 90%;
+  padding-top: 10px;  
+ 
+} 
+
+
+.fa-eye{
+  color:#088F8F
+
+}
+
+.show-button{
+  color: #088F8F;
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  top: 252px;
+  left: 764px;
+}
+
+.list-colors {list-style: none;}
+.list-colors li::before {
+  content: "\2022"; 
+  color: #088F8F;  
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -2.5em; 
+}
+
+.list-positioning{
+    position: absolute;
+    top: 302px;
+    left: 211px;
+}
+
+.opt-out {
+  float: right;
+  width: 90%;
+}

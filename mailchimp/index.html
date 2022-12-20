@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <title>MailChimp</title>
+  </head>
+  <body>
+    <main>
+      <div class="logo-box">
+        <img
+          src="https://cdn2.hubspot.net/hubfs/521324/App-Icon-1200x1200-mailchimp.png"
+          alt="Mail-chimp logo"
+        />
+      </div>
+      <div class="text-box">
+        <h1>WELCOME TO MAILCHIMP</h1>
+        <p>
+          Find your people. Engage your customers. Build your brand. Do it all
+          with Mailchimp's Marketing Platform. Already have an account?
+          <a href=""> Log in </a>
+        </p>
+
+        <form>
+          <label for="fname">First name:</label><br />
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            class="fname-container"
+          /><br />
+          <label for="lname">Last name:</label><br />
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            class="lname-container"
+          /><br />
+          <label for="password">Password</label><br />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            class="password-box"
+          />
+        </form>
+
+        <div class="icon-container">
+          <button class="show-button">
+            <i class="fa-solid fa-eye"></i>
+            show
+          </button>
+        </div>
+
+        <div class="list">
+          <ul class="list-colors">
+            <li>One lowercase character</li>
+            <li>One uppercase character</li>
+            <li>One number</li>
+          </ul>
+
+          <div class="list-positioning">
+            <ul class="list-colors">
+              <li>One special character</li>
+              <li>8 characters minimum</li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <button type="submit" class="sign-up">Sign Up</button>
+          <label for="opt-out" class="opt-out">
+            I don't want to receive emails about new Mailchimp products, best
+            practices, or special offers.
+          </label>
+          <input type="checkbox" id="opt-out" name="opt-out" />
+        </div>
+
+        <p>
+          By clicking the "Sign up" button, you are creating a Mailchimp
+          account, and you agree to Mailchimp's
+          <a href=""> Terms of use </a>
+          and
+          <a href=""> Privacy Policy </a>
+          .
+        </p>
+      </div>
+    </main>
+  </body>
+</html>

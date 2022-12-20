@@ -1,0 +1,307 @@
+
+body {
+    font-family: monospace;
+    width: 100vw;
+    height:100vh;
+}
+
+header {
+    height: 50vh;
+    background-image: url(/assets/nav-image.jpg);
+    background-size: cover; 
+    background-position: center; 
+    position: relative; 
+}
+
+
+.navbar{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+
+
+.navbar_link:hover{
+    border-bottom: 3px solid #00308F;
+}
+
+.navbar__menu{
+    margin: 5px;
+    list-style: none;
+    display: flex;
+}
+
+.navbar__item { 
+    color: white;
+    margin: 5px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+} 
+
+.navbar_link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar__item img {
+    height: 55%;
+}
+
+.logo__color{
+    background-color: white;
+}
+
+
+.icon__color{
+    filter: invert(100%);
+}
+
+.navbar__images {
+    margin: 5px;
+    list-style: none;
+    display: flex;
+}
+
+.nav__text{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    margin: 5px;
+    width: 400px;
+    position: relative;
+    padding-top: 50px;
+    margin-top: 0px;
+    padding-bottom: 100px;
+    bottom: 20px;
+    left: 31px;
+
+}
+
+.nav__text button{
+    background-color:#00308F;
+    width: 180px;
+    height: 25px;
+    color: white;
+}
+
+/* MODELOS CARROS */
+
+.page2{ 
+    border: 5px solid black;
+    margin: 5px;
+}
+
+
+a.cars_link {
+    text-decoration: none;
+    color: gray;
+}
+
+.cars_link:hover {
+    border-bottom: 3px solid #00308F;
+    font-size: 20px;
+    color: black;
+}
+.menu__cars{
+    margin:5px;
+    outline: solid black;
+}
+
+.cars__models{
+    margin: 5px;
+    outline: solid black;
+    list-style: none;
+    display: flex;
+    justify-content: space-around; 
+}
+
+.cars__container{
+    border: 5px solid yellow;
+    margin: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.car__container {
+    border: 5px solid red;
+    margin: 5px;  
+    width: 300px;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.car__tittle{
+    margin:0;
+}
+.car__price{
+    margin-top:0;
+    margin-right: 0;
+    margin-bottom: 7px;
+    margin-left: 0px;
+    color: gray;
+}
+ 
+.car__link{
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-decoration: bold;
+}
+
+.car__container img {
+    margin: 10px;
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+/* ARTICLES */
+
+.articles {
+    border: 5px solid;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+}
+
+.article {
+    border: 2px solid #89cff0;
+    margin: 5px;
+    padding: 5px;
+    width: 300px;
+    height:400px; 
+}
+
+
+.article img{
+    width: 100%;
+    height: 50%;
+    object-fit:cover;
+}
+
+.article__content{
+    color: gray;
+}
+
+.article__link{
+    text-decoration: none;
+    color: black;
+}
+
+/* VIDEOS */
+
+.videos {
+    border: 5px solid;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+.video {
+    border: 5px solid;
+    margin: 5px;
+    width: 30%; 
+   
+    
+}
+
+.video__link{
+    text-decoration: none;
+    color: black;
+}
+
+.video img{
+    width: 100%;
+    height: 50%;
+    object-fit:cover;
+}
+
+/* TOP FOOTER */
+
+.top__footer{
+    border: 5px solid;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.top__footer__element{
+    margin: 5px;
+    width: 150px;
+    height:100px; 
+    text-align: center;
+    background-color:#00308F; 
+    border: solid;
+}
+
+.top__footer__element p{
+    color: white;
+    font-weight: bold;
+    margin: 0;
+}
+.top__footer__element img{
+    width: 30%;
+    height: 30%;
+    object-fit: contain;
+    margin: 20px;
+}
+
+/* SUB-FOOTER */
+
+.sub__footer{
+    border: solid black;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.sub__footer__element{
+    border: solid black;
+    margin: 15px;
+    padding: 15px;
+}
+
+
+.sub__footer__link{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px;
+}
+
+.subfooter_background{
+    border: solid black;
+    margin: 5px;
+    display: flex;
+    width: 1500px;
+    justify-content: center;
+    background-color:#00308F;
+}
+/* 
+FOOTER */
+
+
+footer {
+    border: solid;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+footer p {
+    margin:5px;
+}
+
+.footer_link{
+    text-decoration: underline;
+    color: #00308F;
+    margin: 5px;
+}
